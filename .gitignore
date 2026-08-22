@@ -1,0 +1,115 @@
+# Environments and Keys
+venv/
+rag_venv/
+*.pem
+.env
+
+# Large Models/Data
+model_cache/
+*.pdf
+*.csv
+# =============================================
+# Python & Virtual Environments
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+rag_venv/
+.venv/
+
+# =============================================
+# Environment & Secrets
+# =============================================
+.env
+*.env
+*.pem
+.env.local
+.env.production
+
+# =============================================
+# Logs & Temporary Files
+# =============================================
+*.log
+*.logs
+rag_app.log
+vlm.log
+monitoring.db
+*.sqlite3
+*.db
+
+# =============================================
+# ChromaDB & Vector Database (Heavy & Regeneratable)
+# =============================================
+chroma_db_fast/
+chroma_db/
+RAG/chroma_db_fast/
+RAG/chroma_db/
+
+# Chroma internal files (if not using full folder ignore)
+*.bin
+*.sqlite3
+doc_hashes.json
+
+# =============================================
+# Caches & Build Artifacts
+# =============================================
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.coverage.*
+.cache
+*.pyc
+*.pyo
+
+# PyInstaller / Packaging
+dist/
+build/
+*.egg-info/
+
+# =============================================
+# Large Data & Model Files
+# =============================================
+model_cache/
+*.pdf
+*.csv
+*.jsonl
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+
+# =============================================
+# IDE & Editor Files
+# =============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =============================================
+# OS Generated Files
+# =============================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+venv/
+__pycache__/
+*.pyc
+chroma_db_fast/
+chroma_db_fastt/
+.cache/
+*.log
+monitoring.db
+cache/
