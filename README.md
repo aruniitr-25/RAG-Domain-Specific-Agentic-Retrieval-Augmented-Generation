@@ -1,8 +1,8 @@
 
 
-**BioRAG** is an agentic, hybrid-search Retrieval-Augmented Generation (RAG) system engineered for deep semantic analysis and question answering across peer-reviewed computational biology, molecular chemistry, and structural bioinformatics literature.
+**BioRAG** is an agentic, hybrid search Retrieval Augmented Generation (RAG) system engineered for deep semantic analysis and question answering across peer reviewed computational biology, molecular chemistry, and structural bioinformatics literature.
 
-The pipeline combines dense vector embeddings with sparse BM25 lexical indexing and cross-encoder reranking to accurately resolve technical domain queries—spanning $SE(3)$-equivariant geometric deep learning, CRISPR-Cas9 screening pipelines, and low-data drug discovery frameworks.
+The pipeline combines dense vector embeddings with sparse BM25 lexical indexing and cross encoder reranking to accurately resolve technical domain queries spanning $SE(3)$-equivariant geometric deep learning, CRISPR-Cas9 screening pipelines, and low data drug discovery frameworks.
 
 ---
 
