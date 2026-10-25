@@ -4,7 +4,7 @@
 
 The pipeline combines dense vector embeddings with sparse BM25 lexical indexing and cross encoder reranking to accurately resolve technical domain queries spanning $SE(3)$-equivariant geometric deep learning, CRISPR-Cas9 screening pipelines, and low data drug discovery frameworks.
 
----
+
 
 ## Architecture Overview
                   ┌─────────────────────────┐
@@ -38,7 +38,7 @@ The pipeline combines dense vector embeddings with sparse BM25 lexical indexing 
                   │ Provenance Citations    │
                   └─────────────────────────┘
 
----
+
 
 ## Core Technical Features
 
