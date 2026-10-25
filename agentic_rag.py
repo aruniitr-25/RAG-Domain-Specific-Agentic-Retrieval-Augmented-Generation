@@ -1,5 +1,4 @@
 
-
 import os
 PROJECT_ROOT   = "/home/ubuntu/projects/RAG" if os.path.exists("/home/ubuntu/projects/RAG") else os.path.dirname(os.path.abspath(__file__))
 os.environ["HF_HOME"] = os.path.join(PROJECT_ROOT, "cache", "huggingface")
