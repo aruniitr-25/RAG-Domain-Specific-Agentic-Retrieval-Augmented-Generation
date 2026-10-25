@@ -56,10 +56,10 @@ LLM_MODEL      = "/home/ubuntu/projects/risk_hospitalisation/models/Llama-3.1-8B
 MONITORING_DB  = os.path.join(PROJECT_ROOT, "monitoring.db")
 VLLM_API_URL   = "http://localhost:8000/v1/chat/completions"
 
-# FIX-1: MUST match rag_builder.py EMBEDDING_MODEL
+# FIX 1: MUST match rag_builder.py EMBEDDING_MODEL
 EMBEDDING_MODEL = "BAAI/bge-base-en-v1.5"
 
-# FIX-2: MUST match rag_builder.py COLLECTION_NAME
+# FIX 2: MUST match rag_builder.py COLLECTION_NAME
 COLLECTION_NAME = "agentic_rag_collection"
 
 PRIORITY_ORDER   = ["company_policy", "medicare", "medical", "general"]
@@ -67,7 +67,7 @@ PRIORITY_ORDER   = ["company_policy", "medicare", "medical", "general"]
 # Retrieval
 TOP_K             = 8    # increased from 5
 FETCH_K           = 70  # increased from 40
-# FIX-3: minimum cosine similarity to include a chunk
+# FIX 3: minimum cosine similarity to include a chunk
 MIN_SCORE         = 0.30
 
 MAX_NEW_TOKENS    = 350
@@ -76,7 +76,7 @@ LOW_CONFIDENCE_THRESHOLD = 0.55
 ENABLE_MEMORY            = True
 ENABLE_SELF_CORRECTION   = True
 MAX_ANSWER_SENTENCES     = 8
-# FIX-5: context per chunk — increased from 600/300 mess to 3500 to support full pages
+# FIX 5: context per chunk:increased from 600/300 mess to 3500 to support full pages
 CONTEXT_CHARS_PER_CHUNK  = 3500
 
 # Reranker
@@ -133,7 +133,7 @@ class QueryAnalysis:
     requires_multi_step: bool
     layer_hints:         List[str]
     confidence:          float
-    rewritten_query:     str = ""   # FIX-4
+    rewritten_query:     str = ""   # FIX 4
 
 @dataclass
 class RetrievalPlan:
