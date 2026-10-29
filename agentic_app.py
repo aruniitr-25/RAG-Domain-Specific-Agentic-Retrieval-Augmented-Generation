@@ -28,7 +28,7 @@ os.makedirs(HF_CACHE, exist_ok=True)
 # third party
 from flask import Flask, request, jsonify, Response, g, stream_with_context
 
-# ── local ─────────────────────────────────────────────────────────────────────
+# local
 from agentic_rag import (
     AgenticRAGOrchestrator,
     ConversationMemory,
