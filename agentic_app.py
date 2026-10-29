@@ -1,4 +1,4 @@
-# ── stdlib ────────────────────────────────────────────────────────────────────
+# stdlib
 import os
 import warnings
 import json
