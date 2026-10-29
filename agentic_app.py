@@ -25,7 +25,7 @@ for _k in ("HF_HOME", "TRANSFORMERS_CACHE", "HF_DATASETS_CACHE",
 os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
 os.makedirs(HF_CACHE, exist_ok=True)
 
-# ── third-party ───────────────────────────────────────────────────────────────
+# third party
 from flask import Flask, request, jsonify, Response, g, stream_with_context
 
 # ── local ─────────────────────────────────────────────────────────────────────
