@@ -48,7 +48,7 @@ The pipeline combines dense vector embeddings with sparse BM25 lexical indexing 
 * **Resilient Infrastructure:** Features an automated in-process memory fallback when external caching engines (e.g., Redis) are unavailable.
 * **Dual Interface Support:** Includes a lightweight **Flask REST API** backend and an interactive **Gradio** web user interface.
 
----
+
 
 ## Domain Knowledge Base Focus
 
