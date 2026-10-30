@@ -61,7 +61,7 @@ The default vector collection is indexed on peer-reviewed biomedical literature 
 | **CRISPR-Cas9 Bioinformatics** | Guide RNA design, off-target prediction (Cas-OFFinder), essentiality screening (MAGeCK, CERES). |
 | **Data-Limited Machine Learning** | Transfer learning, self-supervised representation learning (SSL), few-shot meta-learning in drug discovery. |
 
----
+
 
 ## Project Structure
 BioRAG/
